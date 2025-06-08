@@ -46,12 +46,12 @@ Nilai arus \( i(t) \) dan muatan \( q(t) \) dihitung dan disimpan dalam file `.c
 
 ### 1. Kompilasi kode
 ```bash
-gcc main.c -o rlc_sim
+gcc main.c -o main
 ```
 
 ### 2. Jalankan program
 ```bash
-./rlc_sim
+./main
 ```
 
 ### 3. Output
@@ -79,4 +79,4 @@ Grafik ini menunjukkan fase transien dan kemudian kondisi steady-state.
 **Catatan:**  
 - `main.c` berisi kode utama simulasi RLC menggunakan metode RK4.  
 - `output.csv` berisi hasil simulasi.  
-- `plot.py` (jika ada) digunakan untuk memvisualisasikan hasil.  
+- `plot.py` digunakan untuk memvisualisasikan hasil.  
